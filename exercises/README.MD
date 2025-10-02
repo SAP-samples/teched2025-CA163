@@ -32,4 +32,4 @@ Overview & Touring SAP Enterprise Threat Detection, public cloud
 
 For the exercise, please open the [LICENSE](LICENSES/Apache-2.0.txt)
 
-[TechEd2025 ETDc Hands-on Script]('TechEd2025_ETDc_Hands-on Script.pdf')
+[TechEd2025 ETDc Hands-on Script](TechEd2025_ETDc_Hands-onScript.pdf)
