@@ -14,7 +14,7 @@ No specific pre -requirements to follow the exercises in this repository.
 
 ## Exercises
 
-PLease look at the [README](exercises/README.md) of the exercises folder
+PLease look at the [README](exercises/README.MD) of the exercises folder
 
 ## License
 Copyright (c) 2025 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
