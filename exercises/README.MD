@@ -3,6 +3,6 @@
 **Exercise: Working with SAP Enterprise Threat Detection**
 **Version TechEd 2025**
 
-**Based on SAP Enterprise Threat Detection, cloud edition, Version Novembner 2025**
+**Based on SAP Enterprise Threat Detection, cloud edition, Version November 2025**
 
 **Table of Contents**
