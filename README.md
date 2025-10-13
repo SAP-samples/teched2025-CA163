@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2025 session called tec
 
 ## Overview
 
-This session provides a complete Demo lesson with insights into SAP Enterprise Threat Detection, cloud edition and how it helps to protect your SAP landscape. The TechEd_Presentation_2025.pdf document in this folder provides the presentation which will be given in the session.
+This session provides a complete Demo lesson with insights into SAP Enterprise Threat Detection, cloud edition and how it helps to protect your SAP landscape. The [Introduction](01_CA163_TechEd2025_Hand_On_Presentation_2025.pdf) document in this folder provides the presentation which will be given in the session.
 
 ## Requirements
 
