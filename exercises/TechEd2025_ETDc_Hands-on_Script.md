@@ -94,7 +94,7 @@ Here's the flow of the following exercises in your roles as threat actor
 and security specialist (the numbers relate to the chapters in this
 document:
 
-![](media/image1.png){: height="36px" width="36px"}.
+![desc](media/image1.png){height="36px" width="36px"}
 
 Chapters 1 to 7 are related to these to roles. Chapter 8 is related to
 the consumer/processor role
@@ -1078,6 +1078,7 @@ can search for it
 
 ![](media/image86.png){width="6.268055555555556in"
 height="1.3083333333333333in"}
+
 
 
 
