@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# CA163 - Hands-on experience with SAP Enterprise Threat Detection, cloud edition
 
 ## Description
 
