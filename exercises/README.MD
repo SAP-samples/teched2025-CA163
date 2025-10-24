@@ -30,4 +30,4 @@ Overview & Touring SAP Enterprise Threat Detection, public cloud
 8.  Consumer/Processor role: Work with Investigation reports
 
 
-For the exercise, please open the [TechEd2025 ETDc Hands-on Script](./TechEd2025_ETDc_Hands-on&#32;Script.pdf)
+For the exercise, please open the [TechEd2025 ETDc Hands-on Script](./TechEd2025_ETDc_Hands-on_Script.md)
