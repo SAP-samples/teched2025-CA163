@@ -350,12 +350,28 @@ If you receive the 'Select a Tenant' popup, refer to section
   fields, and press "go". Mark some Alerts you find relevant (or all),
   and in the bottom right corner, click on "Create Investigation".
 
+** Small Deviation Begin: Automated Recommendations **
+
+-	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## the Alert 'Critical Authorization Assignment'.
+
+-	Mark it and click on 'Create Investigation'
+
+<img src="media/create_investigation.png" alt="create_investigation.png" width="602" height="338">
+
+-	Fill the popup and click on ‘Add and Show Investigation’ 
+
+-	In the Upper right corner, click on Button <img src="media/generate_recommendation_button.png" alt="generate_recommendation_button.png" width="16" height="14">
+
+-	A Popup arrives, showing the Investigation Recommendation comment for this Alert
+
+<img src="media/generate_recommendation_popup.png" alt="generate_recommendation_popup.png" width="602" height="338">
+
+** Small Deviation End **
+
 <img src="media/image31.png" alt="image31.png" width="602" height="338">
 
 - In the ensuing "Create Investigation" screen, maintain a description
-  referring to your demo ID so you can identify the object later. For
-  "processor", there are only few options available; just assign any
-  email address.
+  referring to your demo ID so you can identify the object later. For 'Processor', click on Button 'Assign to me' <img src="media/own_user.png" alt="own_user.png" width="16" height="14">
 
 - What else you enter is not of relevance in the demo flow. Of course,
   in a productive system these settings determine how the Investigation,
@@ -997,4 +1013,5 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
