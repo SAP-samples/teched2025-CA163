@@ -350,7 +350,7 @@ If you receive the 'Select a Tenant' popup, refer to section
   fields, and press "go". Mark some Alerts you find relevant (or all),
   and in the bottom right corner, click on "Create Investigation".
 
-** Small Deviation Begin: Automated Recommendations **
+**Small Deviation Begin: Automated Recommendations**
 
 -	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## the Alert 'Critical Authorization Assignment'.
 
@@ -368,10 +368,10 @@ If you receive the 'Select a Tenant' popup, refer to section
 
 -	You can then complete the investigation
 
-Note: The Templates are AI generated, During clicking on the Button, the Template Placeholders are automatically filled from different sources (Alert Header, Alert Grouping Attributes, Triggering Events). The rollout of Default Recommendation Templates is ongoing, but currently only available for a few Patterns (this is the reason for the ‘small deviation’).
+**Note**: The Templates are AI generated, During clicking on the Button, the Template Placeholders are automatically filled from different sources (Alert Header, Alert Grouping Attributes, Triggering Events). The rollout of Default Recommendation Templates is ongoing, but currently only available for a few Patterns (this is the reason for the ‘small deviation’).
 
 
-** Small Deviation End **
+**Small Deviation End**
 
 <img src="media/image31.png" alt="image31.png" width="602" height="338">
 
@@ -1018,6 +1018,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
