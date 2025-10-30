@@ -356,15 +356,15 @@ If you receive the 'Select a Tenant' popup, refer to section
 
 -	Mark it and click on 'Create Investigation'
 
-<img src="media/create_investigation.png" alt="create_investigation.png" width="602" height="338">
+<img src="media/create_investigation.png" alt="create_investigation.png" width="700" height="400">
 
 -	Fill the popup and click on ‘Add and Show Investigation’ 
 
--	In the Upper right corner, click on Button <img src="media/generate_recommendation_button.png" alt="generate_recommendation_button.png" width="64" height="28">
+-	In the Upper right corner, click on Button <img src="media/generate_recommendation_button.png" alt="generate_recommendation_button.png" width="96" height="42">
 
 -	A Popup arrives, showing the Investigation Recommendation comment for this Alert
 
-<img src="media/generate_recommendation_popup.png" alt="generate_recommendation_popup.png" width="602" height="338">
+<img src="media/generate_recommendation_popup.png" alt="generate_recommendation_popup.png" width="700" height="400">
 
 ** Small Deviation End **
 
@@ -1013,6 +1013,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
