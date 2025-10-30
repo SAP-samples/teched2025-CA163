@@ -366,6 +366,11 @@ If you receive the 'Select a Tenant' popup, refer to section
 
 <img src="media/generate_recommendation_popup.png" alt="generate_recommendation_popup.png" width="700" height="400">
 
+-	You can then complete the investigation
+
+Note: The Templates are AI generated, During clicking on the Button, the Template Placeholders are automatically filled from different sources (Alert Header, Alert Grouping Attributes, Triggering Events). The rollout of Default Recommendation Templates is ongoing, but currently only available for a few Patterns (this is the reason for the ‘small deviation’).
+
+
 ** Small Deviation End **
 
 <img src="media/image31.png" alt="image31.png" width="602" height="338">
@@ -1013,6 +1018,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
