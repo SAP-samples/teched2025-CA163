@@ -610,7 +610,7 @@ S4/H system got a mass change by adding a high privilege.
   <img src="media/image51.png" alt="image51.png" width="18" height="20"> to filter (for Demo Purposes) on your
   own ABAP User ETDADMIN\<YourNumber\>. In the Popup enter:
 
-  - Semantic Attribute: User Pseudonym, Target
+  - Semantic Attribute: User Pseudonym, Acting
 
   - Type: Value
 
@@ -620,7 +620,7 @@ S4/H system got a mass change by adding a high privilege.
 
 - Then click on 'Create'
 
-> <img src="media/image54.png" alt="image54.png" width="423" height="153">
+> <img src="media/path1subset2.png" alt="image54.png" width="423" height="153">
 
 - You new Subset is showing as 'Subset 2'. By refreshing and selecting
   the Pie Chart you can see some data in Subset 2.
@@ -761,7 +761,7 @@ to the high privilege provisioning (via reference filter).
 
 The final result should look like this:
 
-<img src="media/image62.png" alt="image62.png" width="529" height="779">
+<img src="media/wholefilter.png" alt="image62.png" width="529" height="779">
 
 ### Assigning a Chart 
 
@@ -1019,6 +1019,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
