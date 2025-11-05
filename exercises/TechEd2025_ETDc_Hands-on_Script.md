@@ -120,9 +120,9 @@ console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.mo
 In the ensuing (logon) screen, use the ID indicated to you ([01-35;
 afterwards]{.mark} referred to as "##").
 
-> User: [demo##@etdsap.com](mailto:demo)
+> User: [TechEd##](mailto:demo)
 >
-> Password: ETDSAP_Demo.
+> Password: Will be shared during session.
 
 If you inadvertently lock the password, please notify the instructor.
 
@@ -167,7 +167,7 @@ Alternatively, you can manually set the correct tenant:
 - In the section for "Cross-Tenant Applications", open the app "Select
   Tenant".
 
-- Remove filters "active" and press "go".
+- Remove filters "active" and "test" then press "go".
 
 - The entry "Workshop Demo Customer" will show; select this so the
   system is aware which Tenant you are working on -- which is relevant
@@ -180,57 +180,56 @@ Alternatively, you can manually set the correct tenant:
 
 ## UI Round trip
 
-In Manage Setting tab, users can manage system setting like retention
-times and time zone etc.
+In Manage Settings tab, system analyst can manage system settings like time zone, reaction and processing times etc.
 
 <img src="media/image8.png" alt="image8.png" width="602" height="338">
 
-In Value list tab, users can manage value lists which are allow or
-disallow list where system analyst and put custom values and even can
-create custom value lists
+In Manage Value lists tab, system analyst can manage value lists which are allow or
+disallow list where system analyst can add/remove custom values and even can
+create new custom value lists
 
 <img src="media/image9.png" alt="image9.png" width="602" height="338">
 
-In Analyze Log Events tab, system analyst and view and analyze customers
+In Analyze Log Events tab, system analyst can view and analyze customers
 normalized log data.
 
 <img src="media/image10.png" alt="image10.png" width="602" height="338">
 
-In Manage Alerts tab, system analyst and view and analyze generated
+In Manage Alerts tab, system analyst can view and analyze generated
 alerts.
 
 <img src="media/image11.png" alt="image11.png" width="602" height="338">
 
-In Pattern Executions tab, system analyst and view and check status of
+In Monitor Pattern Executions tab, system analyst can view and check status of
 pattern executions
 
 <img src="media/image12.png" alt="image12.png" width="602" height="338">
 
-In Pattern tab, system analyst and view and create patterns( i.e. use
+In Manage Patterns tab, system analyst can view and create patterns( i.e. use
 cases)<img src="media/image13.png" alt="image13.png" width="602" height="338">
 
-In Investigations tab, system analyst and view and manage
+In Manage Investigations tab, system analyst can view and manage
 investigations.
 
 <img src="media/image14.png" alt="image14.png" width="602" height="338">
 
-In Records tab, system analyst and view use activity logs of ETD system
+In Record of Actions tab, system analyst can view activity logs of ETD system
 
 <img src="media/image15.png" alt="image15.png" width="602" height="338">
 
-In Investigations Report tab, system analyst and view investigations
+In Download Invetsigation Reports tab, system analyst can view investigations
 
 <img src="media/image16.png" alt="image16.png" width="587" height="330">
 
-In Workspace tab, system analyst and view and create
+In Forensic Lab tab, system analyst can view and create
 Workspace<img src="media/image17.png" alt="image17.png" width="585" height="338">
 
-In Manage Incoming logs tab, system analyst and view incoming logs
+In Monitor Incoming Logs tab, system analyst can view incoming logs
 
 <img src="media/image18.png" alt="image18.png" width="602" height="338">
 
-In Resolve user identity tab, system analyst and view and pseudonymize
-and pseudonymize user name
+In Resolve User Identity tab, system analyst can de-pseudonymize
+and pseudonymize user names
 
 <img src="media/image19.png" alt="image19.png" width="602" height="338">
 
@@ -1019,6 +1018,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
