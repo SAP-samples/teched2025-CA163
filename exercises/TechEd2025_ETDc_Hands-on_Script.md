@@ -205,7 +205,7 @@ pattern executions
 
 <img src="media/image12.png" alt="image12.png" width="602" height="338">
 
-In Manage Patterns tab, system analyst can view and create patterns( i.e. use
+In Manage Patterns tab, system analyst can manage existing  and create new patterns( i.e. use
 cases)<img src="media/image13.png" alt="image13.png" width="602" height="338">
 
 In Manage Investigations tab, system analyst can view and manage
@@ -254,6 +254,8 @@ Detection, public cloud*.
 <img src="media/image20.png" alt="image20.png" width="312" height="178"><img src="media/image21.png" alt="image21.png" width="311" height="67">
 
 Log on credentials:
+username :ETDADMIN##
+password: Will be shared during session
 
 If you inadvertently lock the password, please notify the instructor.
 
@@ -1018,6 +1020,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
