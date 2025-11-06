@@ -13,11 +13,11 @@ November 2025**
 
 # Contents
 
-Overview & Touring SAP Enterprise Threat Detection, public cloud
+Overview & Touring SAP Enterprise Threat Detection, cloud edition
 [3](#overview-touring-sap-enterprise-threat-detection-public-cloud)
 
 1\. Logon to the Monitoring Console of SAP Enterprise Threat Detection,
-public cloud
+cloud edition
 [4](#logon-to-the-monitoring-console-of-sap-enterprise-threat-detection-public-cloud)
 
 1.1 Got a Warning 'Select a Tenant' [6](#got-a-warning-select-a-tenant)
@@ -69,22 +69,22 @@ Action in the Forensic Lab
 8\. Consumer/Processor role: Work with Investigation reports
 [38](#consumerprocessor-role-work-with-investigation-reports)
 
-# Overview & Touring SAP Enterprise Threat Detection, public cloud
+# Overview & Touring SAP Enterprise Threat Detection, cloud edition
 
 In this hands-on session and workshop of about 1.5 -- 2h, you will get
 to know the basic functioning of *SAP Enterprise Threat Detection,
-public cloud*, including the terminology employed.
+cloud edition*, including the terminology employed.
 
 You will switch back and forth between 3 roles. In a first role, you
 will be a (potential) threat actor in an SAP S/4HANA system and conduct
 actions resulting in system responses in *SAP Enterprise Threat
-Detection, public cloud*.
+Detection, cloud edition*.
 
 In a second role, you will act as a security specialist in charge to
 identify potential threats, pin down what has happened and determine the
 relevance, as well as ensure that the knowledge about the attack vector
 is added to the repository on which *SAP Enterprise Threat Detection,
-public cloud* will automatically alert going forward.
+cloud edition* will automatically alert going forward.
 
 In a 3^rd^ role, you will act as a consumer/processor of the results
 (Investigation Report), that was created by you in your second role as a
@@ -99,9 +99,9 @@ document:
 Chapters 1 to 7 are related to these to roles. Chapter 8 is related to
 the consumer/processor role
 
-# Logon to the Monitoring Console of SAP Enterprise Threat Detection, public cloud
+# Logon to the Monitoring Console of SAP Enterprise Threat Detection, cloud edition
 
-Access the [*SAP Enterprise Threat Detection, public cloud* monitoring
+Access the [*SAP Enterprise Threat Detection, cloud edition* monitoring
 console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.monitoring.etd-cloud.cfapps.eu10-004.hana.ondemand.com/cp.portal/site?targetTenantId=9189d8d0-c3ea-4f11-a145-1a7d13e32c3d&origin=monitoring#Shell-home)
 
 [IMPORTANT:]{.underline}
@@ -144,7 +144,7 @@ blue hyperlink and select "Workshop Demo Customer".
 
 <img src="media/image3.png" alt="image3.png" width="595" height="229">
 
-You will then see the *SAP Enterprise Threat Detection, public cloud*
+You will then see the *SAP Enterprise Threat Detection, cloud edition*
 monitoring console. Take a bit of time to check by a few apps and how
 they behave.
 
@@ -241,7 +241,7 @@ designated set of users already existing; throughout the description,
 
 In this section, you will conduct actions in SAP GUI to generate Log
 Events which in return will result in Alerts in *SAP Enterprise Threat
-Detection, public cloud*.
+Detection, cloud edition*.
 
 ## Logon & Preparation Steps
 
@@ -275,7 +275,7 @@ If you inadvertently lock the password, please notify the instructor.
 ## Creating a User With High Privileges
 
 You will now conduct an action which triggers your first logs into *SAP
-Enterprise Threat Detection, public cloud:* creating a highly privileged
+Enterprise Threat Detection, cloud edition:* creating a highly privileged
 user.
 
 - In the transaction code entry, enter "SU01" (User Maintenance), and
@@ -300,7 +300,7 @@ user.
 
 <img src="media/image27.png" alt="image27.png" width="381" height="261">
 
-- Back in the SU01 initial screen, put in your user ETDDEMOxx and select
+- Back in the SU01 initial screen, put in your user ETDDEMO## and select
   the button "Change". Move to the tab "Profiles", add the profile
   "SAP_ALL" (making this user a super user basically without
   restrictions), and hit enter. Then press "Save".
@@ -315,12 +315,12 @@ user.
 
 # Checking Alerts and Creating Investigations
 
-You will now look at alerts in *SAP Enterprise Threat Detection, public
-cloud* and create an Investigation object out of it.
+You will now look at alerts in *SAP Enterprise Threat Detection,
+cloud edition* and create an Investigation object out of it.
 
-Return to the *SAP Enterprise Threat Detection, public cloud* Monitoring
+Return to the *SAP Enterprise Threat Detection, cloud edition* Monitoring
 Console. If necessary, log on again with your user
-[teched**xx**\@etdsap.com](mailto:techedxx@etdsap.com), and in the
+[teched**##**\@etdsap.com](mailto:teched##@etdsap.com), and in the
 Select Tenant app, select the tenant "Workshop Demo Customer".
 
 If you receive the 'Select a Tenant' popup, refer to section
@@ -343,7 +343,7 @@ If you receive the 'Select a Tenant' popup, refer to section
 ## Search for Alerts
 
 - Choose the app "Manage Alerts". The list should be populated with
-  several recent entries. If yours is not in the system yet, give a
+  several recent entries. If yours is not in the system yet, give it a
   little time -- generation for these Alerts is triggered by a job every
   few minutes.
 
@@ -378,7 +378,8 @@ If you receive the 'Select a Tenant' popup, refer to section
 <img src="media/image31.png" alt="image31.png" width="602" height="338">
 
 - In the ensuing "Create Investigation" screen, maintain a description
-  referring to your demo ID so you can identify the object later. For 'Processor', click on Button 'Assign to me' <img src="media/own_user.png" alt="own_user.png" width="32" height="28">
+  referring to your demo ID so you can identify the object later. For
+  'Processor', choose one of the available processors from the dropdown.
 
 - What else you enter is not of relevance in the demo flow. Of course,
   in a productive system these settings determine how the Investigation,
@@ -429,7 +430,7 @@ What is the meaning of the different parts of the Investigation object?
 
 In this section, you will return into the role as a rogue actor and
 conduct several more actions resulting in Log Events flowing into *SAP
-Enterprise Threat Detection, public cloud*.
+Enterprise Threat Detection, cloud edition*.
 
 First, you need to log on to the SAP S/4HANA with the newly generated
 user ETDDEMO##.
@@ -485,7 +486,7 @@ from passwords).
 
 You have conducted a seemingly simple but dangerous activity which
 should be resulting in at least one Alert in *SAP Enterprise Threat
-Detection, public cloud*.
+Detection, cloud edition*.
 
 Let's continue to retrieve and process them!
 
@@ -580,7 +581,7 @@ The Workspace will look similar like this one:
 
 **Information:** To be able to see some data in the following filter
 steps, directly before the session started, all ETDADMIN## users in the
-S4/H system got a mass change by adding a high privilege.
+S4/HANA system got a mass change by adding a high privilege.
 
 - By clicking on the 'Create Subset'
   <img src="media/image51.png" alt="image51.png" width="18" height="20"> Symbol, a Popup appears to enter the
@@ -783,7 +784,7 @@ numbers per day", or "every single access to a critical database
 table").
 
 This is the primary way of building new content in *SAP Enterprise
-Threat Detection, public cloud*.
+Threat Detection, cloud edition*.
 
 In this demo case, we look to the final Subset on "User Pseudonym,
 Acting" in Path 2. Switch to edit mode again, and mark Subset 4, Path 2.
@@ -817,7 +818,7 @@ user):
 
 <img src="media/image65.png" alt="image65.png" width="324" height="357">
 
-- [Finally, click the 'Save' Button]{.mark}
+Finally, click on the 'Save' button.
 
 > Note: Per each deviating combination of the (in this example) 4
 > grouped attributes, there would arrive another bar in the bar chart.
@@ -857,7 +858,7 @@ happening), and generate Alerts.
 <img src="media/image67.png" alt="image67.png" width="602" height="240">
 
 - Finally, return to the Manage Alerts app. Filter for Alert(s)
-  pertaining to your pattern xx_PWHashAttack. Have a look at the
+  pertaining to your pattern ##_PWHashAttack. Have a look at the
   "trigger" field, detailing the resource and the user (pseudonym)
   responsible for creating the alert (if necessary, expand the
   text/field).
@@ -940,7 +941,7 @@ This closes the investigation, and no more changes are possible.
   via mail to the addresses maintained in chapter 7.1). This may take a
   couple of minutes.
 
-This concludes the *SAP Enterprise Threat Detection, public cloud* part
+This concludes the *SAP Enterprise Threat Detection, cloud edition* part
 of the threat countering process. The further proceedings would now be
 in the hands of the investigations report processor(s) (see next
 chapter), who may involve their security team to take action on the
@@ -950,7 +951,7 @@ system users and physical persons behind them.
 
 **This exercise is Demo only!**
 
-You are now switching to your 3^rd^ role as consumer/processor of the
+You are now switching to your third role as consumer/processor of the
 final product, the investigation report.
 
 Logon to the consumer view of SAP Enterprise Threat Detection, cloud
@@ -1020,6 +1021,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
