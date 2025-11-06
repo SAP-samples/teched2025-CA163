@@ -118,9 +118,9 @@ console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.mo
 
 In the ensuing (logon) screen, use the ID indicated to you ([01-35] referred to as "##").
 
-> User: [demo##@etdsap.com](mailto:demo)
+> User: [TechEd##](mailto:demo)
 >
-> Password: ETDSAP_Demo.
+> Password: Will be shared during session.
 
 If you inadvertently lock the password, please notify the instructor.
 
@@ -165,7 +165,7 @@ Alternatively, you can manually set the correct tenant:
 - In the section for "Cross-Tenant Applications", open the app "Select
   Tenant".
 
-- Remove filters "active" and press "go".
+- Remove filters "active" and "test" then press "go".
 
 - The entry "Workshop Demo Customer" will show; select this so the
   system is aware which Tenant you are working on -- which is relevant
@@ -178,62 +178,62 @@ Alternatively, you can manually set the correct tenant:
 
 ## UI Round trip
 
-In the Manage Settings tab, users can manage system settings like retention
+In the Manage Settings tile, users can manage system settings like retention
 times and time zone etc.
 
 <img src="media/image8.png" alt="image8.png" width="602" height="338">
 
-In the Manage Value Lists tab, users can manage value lists which are allow or
+In the Manage Value Lists tile, users can manage value lists which are allow or
 disallow lists where system analysts put custom values and even can
 create custom value lists.
 
 <img src="media/image9.png" alt="image9.png" width="602" height="338">
 
-In the Analyze Log Events tab, users can analyze customers'
+In the Analyze Log Events tile, users can analyze customers'
 normalized log data.
 
 <img src="media/image10.png" alt="image10.png" width="602" height="338">
 
-In the Manage Alerts tab, users can view and manage generated
+In the Manage Alerts tile, users can view and manage generated
 alerts.
 
 <img src="media/image11.png" alt="image11.png" width="602" height="338">
 
-In the Monitor Pattern Executions tab, users can check the status of
+In the Monitor Pattern Executions tile, users can check the status of
 pattern executions.
 
 <img src="media/image12.png" alt="image12.png" width="602" height="338">
 
-In the Manage Patterns tab, users can view and create patterns (i.e. use
+In the Manage Patterns tile, users can view and create patterns (i.e. use
 cases).
 
 <img src="media/image13.png" alt="image13.png" width="602" height="338">
 
-In the Manage Investigations tab, users can view and manage
+In the Manage Investigations tile, users can view and manage
 investigations.
 
 <img src="media/image14.png" alt="image14.png" width="602" height="338">
 
-In the Record of Actions tab, users can view the activity logs of the ETD system.
+In the Record of Actions tile, users can view the activity logs of the ETD system.
 
 <img src="media/image15.png" alt="image15.png" width="602" height="338">
 
-In the Download Investigations Reports tab, users can access investigation reports.
+In the Download Investigations Reports tile, users can access investigation reports.
 
 <img src="media/image16.png" alt="image16.png" width="587" height="330">
 
-In the Forensic Lab tab, users can view and create
+In the Forensic Lab tile, users can view and create
 workspaces for forensic analysis and pattern building.
 
 <img src="media/image17.png" alt="image17.png" width="585" height="338">
 
-In the Monitor Incoming Logs tab, users get insights about the log data 
+In the Monitor Incoming Logs tile, users get insights about the log data 
 from connected systems.
 
 <img src="media/image18.png" alt="image18.png" width="602" height="338">
 
 Usually, usernames are shown as pseudonyms for data protection purposes. 
-In the Resolve User Identity tab, users can determine the actual usernames 
+In the Resolve User Identity tile, users can determine the actual usernames 
 of these pseudonyms, and the other way around.
 
 <img src="media/image19.png" alt="image19.png" width="602" height="338">
@@ -259,6 +259,8 @@ Detection, public cloud*.
 <img src="media/image20.png" alt="image20.png" width="312" height="178"><img src="media/image21.png" alt="image21.png" width="311" height="67">
 
 Log on credentials:
+username :ETDADMIN##
+password: Will be shared during session
 
 If you inadvertently lock the password, please notify the instructor.
 
@@ -1023,6 +1025,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
