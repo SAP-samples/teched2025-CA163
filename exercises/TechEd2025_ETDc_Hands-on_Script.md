@@ -9,7 +9,6 @@ November 2025**
 **Get Hands-On with the New\
 *SAP Enterprise Threat Detection, cloud edition***
 
-**\**
 
 # Contents
 
@@ -20,7 +19,7 @@ Overview & Touring SAP Enterprise Threat Detection, public cloud
 public cloud
 [4](#logon-to-the-monitoring-console-of-sap-enterprise-threat-detection-public-cloud)
 
-1.1 Got a Warning 'Select a Tenant' [6](#got-a-warning-select-a-tenant)
+1.1 Got a Warning 'Select a Tenant'? [6](#got-a-warning-select-a-tenant)
 
 1.2 UI Round trip [7](#ui-round-trip)
 
@@ -86,7 +85,7 @@ relevance, as well as ensure that the knowledge about the attack vector
 is added to the repository on which *SAP Enterprise Threat Detection,
 public cloud* will automatically alert going forward.
 
-In a 3^rd^ role, you will act as a consumer/processor of the results
+In a third role, you will act as a consumer/processor of the results
 (Investigation Report), that was created by you in your second role as a
 security specialist.
 
@@ -104,7 +103,7 @@ the consumer/processor role
 Access the [*SAP Enterprise Threat Detection, public cloud* monitoring
 console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.monitoring.etd-cloud.cfapps.eu10-004.hana.ondemand.com/cp.portal/site?targetTenantId=9189d8d0-c3ea-4f11-a145-1a7d13e32c3d&origin=monitoring#Shell-home)
 
-[IMPORTANT:]{.underline}
+**IMPORTANT**
 
 - You should get the below start page (if not, please empty your browser
   cache and try again).
@@ -112,13 +111,12 @@ console](https://etd-cloud-workshop-partner-nten9gd6-monitoringapprouter.prod.mo
 - Here, select the first entry ("httpsetdtestlogs.accounts.ondemand") to
   log on with the generic workshop users below (not any personal
   credentials -- they won't be recognized in this cloud application).\
-  Do **[NOT]{.underline}** choose the "Default Identity Provider" (here,
+  Do **NOT** choose the "Default Identity Provider" (here,
   the generic users won't work).
 
 <img src="media/image2.png" alt="image2.png" width="602" height="234">
 
-In the ensuing (logon) screen, use the ID indicated to you ([01-35;
-afterwards]{.mark} referred to as "##").
+In the ensuing (logon) screen, use the ID indicated to you ([01-35] referred to as "##").
 
 > User: [TechEd##](mailto:demo)
 >
@@ -150,14 +148,14 @@ they behave.
 
 <img src="media/image4.png" alt="image4.png" width="602" height="338">
 
-## Got a Warning 'Select a Tenant'
+## Got a Warning 'Select a Tenant'?
 
-If you encounter a the warning popup
+If you encounter this warning popup
 
 <img src="media/image5.png" alt="image5.png" width="385" height="172">
 
-the system has lost the information which Tenant you've been working on
-(most likely you had been logged out).
+then the system has lost the information which Tenant you've been working on
+(most likely you have been logged out).
 
 In this case, either start the *SAP Enterprise Threat Detection, public
 cloud* console again via the above link.
@@ -180,56 +178,63 @@ Alternatively, you can manually set the correct tenant:
 
 ## UI Round trip
 
-In Manage Settings tab, system analyst can manage system settings like time zone, reaction and processing times etc.
+In the Manage Settings tile, users can manage system settings like retention
+times and time zone etc.
 
 <img src="media/image8.png" alt="image8.png" width="602" height="338">
 
-In Manage Value lists tab, system analyst can manage value lists which are allow or
-disallow list where system analyst can add/remove custom values and even can
-create new custom value lists
+In the Manage Value Lists tile, users can manage value lists which are allow or
+disallow lists where system analysts put custom values and even can
+create custom value lists.
 
 <img src="media/image9.png" alt="image9.png" width="602" height="338">
 
-In Analyze Log Events tab, system analyst can view and analyze customers
+In the Analyze Log Events tile, users can analyze customers'
 normalized log data.
 
 <img src="media/image10.png" alt="image10.png" width="602" height="338">
 
-In Manage Alerts tab, system analyst can view and analyze generated
+In the Manage Alerts tile, users can view and manage generated
 alerts.
 
 <img src="media/image11.png" alt="image11.png" width="602" height="338">
 
-In Monitor Pattern Executions tab, system analyst can view and check status of
-pattern executions
+In the Monitor Pattern Executions tile, users can check the status of
+pattern executions.
 
 <img src="media/image12.png" alt="image12.png" width="602" height="338">
 
-In Manage Patterns tab, system analyst can manage existing  and create new patterns( i.e. use
-cases)<img src="media/image13.png" alt="image13.png" width="602" height="338">
+In the Manage Patterns tile, users can view and create patterns (i.e. use
+cases).
 
-In Manage Investigations tab, system analyst can view and manage
+<img src="media/image13.png" alt="image13.png" width="602" height="338">
+
+In the Manage Investigations tile, users can view and manage
 investigations.
 
 <img src="media/image14.png" alt="image14.png" width="602" height="338">
 
-In Record of Actions tab, system analyst can view activity logs of ETD system
+In the Record of Actions tile, users can view the activity logs of the ETD system.
 
 <img src="media/image15.png" alt="image15.png" width="602" height="338">
 
-In Download Invetsigation Reports tab, system analyst can view investigations
+In the Download Investigations Reports tile, users can access investigation reports.
 
 <img src="media/image16.png" alt="image16.png" width="587" height="330">
 
-In Forensic Lab tab, system analyst can view and create
-Workspace<img src="media/image17.png" alt="image17.png" width="585" height="338">
+In the Forensic Lab tile, users can view and create
+workspaces for forensic analysis and pattern building.
 
-In Monitor Incoming Logs tab, system analyst can view incoming logs
+<img src="media/image17.png" alt="image17.png" width="585" height="338">
+
+In the Monitor Incoming Logs tile, users get insights about the log data 
+from connected systems.
 
 <img src="media/image18.png" alt="image18.png" width="602" height="338">
 
-In Resolve User Identity tab, system analyst can de-pseudonymize
-and pseudonymize user names
+Usually, usernames are shown as pseudonyms for data protection purposes. 
+In the Resolve User Identity tile, users can determine the actual usernames 
+of these pseudonyms, and the other way around.
 
 <img src="media/image19.png" alt="image19.png" width="602" height="338">
 
