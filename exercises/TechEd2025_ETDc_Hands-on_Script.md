@@ -532,6 +532,12 @@ The Workspace will look similar like this one:
 - In the area "Custom Workspaces", you see a list of existing
   workspaces.
 
+Note: In case you don't want to create workspace from scratch you can use below shortcut
+search for workspace ZZ_Demo99 then Copy and rename it to ##TechEdPWHashAttack
+Then in path 1 subset 2, Change user pseudonym, acting to ETDADMIN## (i.e to your user)
+Then go to path 2 subset 4, search for chart 99PWHashAttack and rename it to your number ##PWHashAttack and press save button
+Then you can skip the complete workspace creation chapter and proceed to next chapter From Workspace to Pattern to Alerts (page 32)
+
 - Create a new Workspace with Name ##TechEdPWHashAttack, by replacing
   the \## with your participant number. Enter some additional
   information (Use case, Severity, Description), and then click on
@@ -1024,6 +1030,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
