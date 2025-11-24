@@ -356,7 +356,7 @@ If you receive the 'Select a Tenant' popup, refer to section
 
 **Small Deviation Begin: Automated Recommendations**
 
--	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## the Alert 'Critical Authorization Assignment'.
+-	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## and the Alert 'Critical Authorization Assignment'.
 
 -	Mark it and click on 'Create Investigation'
 
@@ -1024,6 +1024,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
