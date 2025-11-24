@@ -352,11 +352,11 @@ If you receive the 'Select a Tenant' popup, refer to section
   little time -- generation for these Alerts is triggered by a job every
   few minutes.
 
-- Skip this step and follow small deviation mentioned below "Then, filter for your user ETDADMIN## in the Trigger Value 1 or 2 fields, and press "go". Mark some Alerts you find relevant (or all), and in the bottom right corner, click on "Create Investigation"".
+- Then, filter for your user ETDADMIN## in the Trigger Value 1 or 2 fields, and press "go". Mark some Alerts you find relevant (or all), and in the bottom right corner, click on "Create Investigation".
 
-**Small Deviation Begin: Automated Recommendations**
+**Small Deviation Begin: AI based Automated Recommendations showcase**
 
--	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## and the Alert 'Critical Authorization Assignment'.
+-	In the Alert UI (as shown below): Search especially for your User ID ETDADMIN## and the Alert 'Critical Authorization Assignment' ( Ensure to select only this alert).
 
 -	Mark it and click on 'Create Investigation'
 
@@ -1035,6 +1035,7 @@ And, going back to the list, you find the tag in the list entry, and you
 can search for it
 
 <img src="media/image86.png" alt="image86.png" width="602" height="126">
+
 
 
 
